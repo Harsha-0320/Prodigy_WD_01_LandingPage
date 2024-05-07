@@ -7,6 +7,23 @@
     font-family: 'Cinzel',Times;
 }
 
+a:link {
+    color:#FBC87A;
+    text-decoration: none;
+}
+
+/*mouse over link*/
+
+/*visited link*/
+a:visited{
+    color: #FBC87A;
+}
+
+/*selected link*/
+a:active{
+    color:#FBC87A;
+}
+
 body{
     background: black;
     min-height: 100vh;
@@ -115,7 +132,7 @@ header .sticky .logo {
 
 .content .info h4{
     color: #FBC87A;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -147,7 +164,7 @@ header .sticky .logo {
 .content .info-btn:hover{
     background: #FBC87A;
     color: black;
-    padding: 6px;
+    padding: 10px 20px;
 }
 
 .media-icons{
@@ -162,6 +179,7 @@ header .sticky .logo {
     color: #FBC87A;
     font-size: 25px;
     transition: 0.3s;
+    padding-bottom: 20px;
     transition-property: transform;
 }
 
@@ -171,4 +189,41 @@ header .sticky .logo {
 
 .media-icons a:hover{
     transform:  scale(1.5);
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer p{
+    font-size: medium;
+    font-family: 'Cinzel';
+    color: #FBC87A;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.icons .fa{
+    color: #FBC87A;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px;
+
+}
+
+.fa-heart-o{
+    color: #FBC87A;
+
+}
+
+.footer a{
+    color: #FBC87A;
 }
