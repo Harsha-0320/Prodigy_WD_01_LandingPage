@@ -100,6 +100,16 @@ header ul li a:hover{
     justify-content: flex-start;
 }
 
+.banner2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    background: url(https://th.bing.com/th/id/R.7a291b062b00466fac2db7c0c7905c98?rik=DhU0IY3MwV%2bTCA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f03%2fLamborghini-Dark-wallpapers-HD-free-download.jpg&ehk=Z81tcX4GaP4bUw6tp5f0m%2bfjcWERJJrBPvSZnFi6I%2fM%3d&risl=&pid=ImgRaw&r=0)no-repeat;
+    background-size:cover ;
+    justify-content: flex-start;
+}
+
 header .sticky ul li a{
     color: black;
 }
@@ -137,8 +147,9 @@ header .sticky .logo {
 }
 
 .content .info h4 span{
+    padding-top: 3px;
     color: #FBC87A;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 .content .info p{
@@ -189,6 +200,55 @@ header .sticky .logo {
 
 .media-icons a:hover{
     transform:  scale(1.5);
+}
+
+.slider{
+    width:100vw ;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider .list .item{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0 0 0 0;
+}
+
+.slider .list .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider .list .item .content{
+    position: absolute;
+    top: 20%;
+    width: 1140px;
+    max-width: 80%;
+    left: 35%;
+    padding-right: 40%;
+    text-align: left;
+    transform: translate(-50%);
+    box-sizing: border-box;
+    color: #FBC87A;
+}
+
+.slider .list .item .content .button{
+    margin-top: 20px;
+}
+
+.slider .list .item .content .button button{
+    border: none;
+    background-color: black;
+    padding: 7px 15px;
+    font-family: 'Cinzel';
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    color: #FBC87A;
 }
 
 .footer{
