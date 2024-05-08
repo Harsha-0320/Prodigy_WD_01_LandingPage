@@ -94,21 +94,12 @@ header ul li a:hover{
     position: relative;
     width: 100%;
     display: flex;
-    height: 100vh;
+    height: 110vh;
     background: url(https://th.bing.com/th/id/R.9659de4e4ed954e25ec15b06ef041d66?rik=NPCTbDXu5soy6A&riu=http%3a%2f%2fpapers.co%2fwallpaper%2fpapers.co-be98-car-lamborghini-dark-city-art-23-wallpaper.jpg&ehk=O2jUz0FFsxRJZsAAcqnTwfvnxldEOWd9SjThmqb2Gfw%3d&risl=&pid=ImgRaw&r=0)no-repeat;
     background-size:cover ;
     justify-content: flex-start;
 }
 
-.banner2{
-    position: relative;
-    width: 100%;
-    display: flex;
-    height: 100vh;
-    background: url(https://th.bing.com/th/id/R.7a291b062b00466fac2db7c0c7905c98?rik=DhU0IY3MwV%2bTCA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f03%2fLamborghini-Dark-wallpapers-HD-free-download.jpg&ehk=Z81tcX4GaP4bUw6tp5f0m%2bfjcWERJJrBPvSZnFi6I%2fM%3d&risl=&pid=ImgRaw&r=0)no-repeat;
-    background-size:cover ;
-    justify-content: flex-start;
-}
 
 header .sticky ul li a{
     color: black;
@@ -202,11 +193,24 @@ header .sticky .logo {
     transform:  scale(1.5);
 }
 
+/* Slider section  */
+
+.banner2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 90vh;
+    background: url(https://th.bing.com/th/id/R.7a291b062b00466fac2db7c0c7905c98?rik=DhU0IY3MwV%2bTCA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f03%2fLamborghini-Dark-wallpapers-HD-free-download.jpg&ehk=Z81tcX4GaP4bUw6tp5f0m%2bfjcWERJJrBPvSZnFi6I%2fM%3d&risl=&pid=ImgRaw&r=0)no-repeat;
+    background-size:cover ;
+    justify-content: flex-start;
+}
+
 .slider{
     width:100vw ;
     height: 100vh;
     overflow: hidden;
     position: relative;
+    margin-top: -50px;
 }
 
 .slider .list .item{
@@ -243,6 +247,7 @@ header .sticky .logo {
     border: none;
     background-color: black;
     padding: 7px 15px;
+    left: 10px;
     font-family: 'Cinzel';
     font-weight: 500;
     cursor: pointer;
@@ -251,10 +256,81 @@ header .sticky .logo {
     color: #FBC87A;
 }
 
+.slider .list .item .content p{
+    font-size: 1.6em;
+    left: 30%;
+    font-weight: bolder;
+}
+
+.slider .list .item .content .button button:hover{
+    background: #FBC87A;
+    color: black;
+    padding: 7px 15px;
+}
+
+/*    Thumbnail section    */
+
+.thumbnail{
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    gap: 40px;
+    left: 55%;
+    width: max-content;
+    z-index: 100;
+}
+
+.thumbnail .item{
+    width: 130px;
+    height: 140px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.thumbnail .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 5px 0 15px #FBC87A;
+}
+
+/*  nextPrevArrows section  */
+.nextPrevArrows{
+    position: absolute;
+    top: 85%;
+    right: 35%;
+    z-index: 100;
+    width: 300px;
+    max-width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nextPrevArrows button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+    color: #FBC87A;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nextPrevArrows button:hover{
+    background-color:#FBC87A;
+    color: black;
+}
+
+/* Footer section */
 .footer{
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 70px 0;
 }
 
 .footer h4{
