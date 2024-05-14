@@ -5,7 +5,7 @@ Welcome to my responsive landing page! This folder consist of source code for au
 This website serves as a platform to showcase my knowledge in Frontend Web Development. It is presented for automotive Lamborghini brand in its dark phase.
 
 ## Features
-Its consists of sticky navigation bar followed with the images of its dark phase anf the footer
+It consists of sticky navigation bar followed with the images of its dark phase anf the footer
 
 ## Technology
 - HTML5
